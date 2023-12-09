@@ -1,0 +1,72 @@
+.body-margin {
+  margin: 0.5rem;
+}
+
+.border-top {
+  border-top: 2px solid black;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
+
+.button-styling {
+  padding: 1rem;
+  background-color: #046138;
+  color: white;
+  border-radius: 1rem;
+  border: 1px solid white;
+}
+
+.cancel-button {
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.delete-button {
+  padding: 1rem;
+  background-color: red;
+  color: black;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.input-style {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+}
+
+.card-style {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.card-border {
+  border: 2px solid #046138;
+  border-radius: 1rem;
+  padding: .5rem;
+  margin: .5rem;
+}
+
+.personal-space {
+  margin: .3rem;
+}
+
+/* Tablet */
+@media (min-width: 820px) {
+  .card-style {
+    max-width: 50%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .card-style {
+    max-width: 33%;
+  }
+}
