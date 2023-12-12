@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.utils;
+package com.otter.lms.otterlms.utils;
 
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;

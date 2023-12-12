@@ -1,9 +1,9 @@
-package com.example.wsu.webdemo.service;
+package com.otter.lms.otterlms.service;
 
-import com.example.wsu.webdemo.dto.CourseDTO;
-import com.example.wsu.webdemo.entity.Course;
-import com.example.wsu.webdemo.exception.CourseNotFoundException;
-import com.example.wsu.webdemo.repository.CourseRepository;
+import com.otter.lms.otterlms.dto.CourseDTO;
+import com.otter.lms.otterlms.entity.Course;
+import com.otter.lms.otterlms.exception.CourseNotFoundException;
+import com.otter.lms.otterlms.repository.CourseRepository;
 import java.util.Collections;
 import java.util.Optional;
 import org.junit.jupiter.api.Test;
@@ -15,8 +15,8 @@ import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.modelmapper.ModelMapper;
 
-import static com.example.wsu.webdemo.utils.TestEntityFactory.validCourse;
-import static com.example.wsu.webdemo.utils.TestEntityFactory.validCourseDTO;
+import static com.otter.lms.otterlms.utils.TestEntityFactory.validCourse;
+import static com.otter.lms.otterlms.utils.TestEntityFactory.validCourseDTO;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;

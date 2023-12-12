@@ -1,10 +1,10 @@
-package com.example.wsu.webdemo.service;
+package com.otter.lms.otterlms.service;
 
-import com.example.wsu.webdemo.dto.CourseDTO;
-import com.example.wsu.webdemo.entity.Course;
-import com.example.wsu.webdemo.exception.CourseNotFoundException;
-import com.example.wsu.webdemo.repository.CourseRepository;
-import com.example.wsu.webdemo.security.Role;
+import com.otter.lms.otterlms.dto.CourseDTO;
+import com.otter.lms.otterlms.entity.Course;
+import com.otter.lms.otterlms.exception.CourseNotFoundException;
+import com.otter.lms.otterlms.repository.CourseRepository;
+import com.otter.lms.otterlms.security.Role;
 import java.util.List;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;

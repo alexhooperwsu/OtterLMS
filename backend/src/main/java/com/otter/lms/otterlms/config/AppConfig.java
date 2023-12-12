@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.config;
+package com.otter.lms.otterlms.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo;
+package com.otter.lms.otterlms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,6 +10,9 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 public class WebDemoApplication {
 
 	public static void main(String[] args) {
+		for(var arg : args) {
+			System.out.println(arg);
+		}
 		SpringApplication.run(WebDemoApplication.class, args);
 	}
 

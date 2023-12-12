@@ -1,11 +1,11 @@
-package com.example.wsu.webdemo.controller;
+package com.otter.lms.otterlms.controller;
 
-import com.example.wsu.webdemo.config.TestSecurityConfig;
-import com.example.wsu.webdemo.domain.CourseLevel;
-import com.example.wsu.webdemo.dto.CourseDTO;
-import com.example.wsu.webdemo.exception.CourseNotFoundException;
-import com.example.wsu.webdemo.security.Role;
-import com.example.wsu.webdemo.service.CourseService;
+import com.otter.lms.otterlms.config.TestSecurityConfig;
+import com.otter.lms.otterlms.domain.CourseLevel;
+import com.otter.lms.otterlms.dto.CourseDTO;
+import com.otter.lms.otterlms.exception.CourseNotFoundException;
+import com.otter.lms.otterlms.security.Role;
+import com.otter.lms.otterlms.service.CourseService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Collections;
 import java.util.List;
@@ -16,7 +16,7 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Import;
 import org.springframework.test.web.servlet.MockMvc;
 
-import static com.example.wsu.webdemo.utils.BodyMatchers.responseBody;
+import static com.otter.lms.otterlms.utils.BodyMatchers.responseBody;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

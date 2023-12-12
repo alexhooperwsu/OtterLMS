@@ -1,10 +1,10 @@
-package com.example.wsu.webdemo.entity;
+package com.otter.lms.otterlms.entity;
 
-import com.example.wsu.webdemo.domain.CourseComplexity;
-import com.example.wsu.webdemo.domain.CourseLevel;
+import com.otter.lms.otterlms.domain.CourseComplexity;
+import com.otter.lms.otterlms.domain.CourseLevel;
 import org.junit.jupiter.api.Test;
 
-import static com.example.wsu.webdemo.utils.TestEntityFactory.validCourse;
+import static com.otter.lms.otterlms.utils.TestEntityFactory.validCourse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CourseTest {

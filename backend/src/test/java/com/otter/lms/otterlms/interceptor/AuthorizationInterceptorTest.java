@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.interceptor;
+package com.otter.lms.otterlms.interceptor;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.config;
+package com.otter.lms.otterlms.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
@@ -10,6 +10,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * class so we're able to fire up a partial application context for MockMvc tests
  */
 @Configuration
-@EnableJpaRepositories(basePackages = "com.example.wsu.webdemo")
+@EnableJpaRepositories(basePackages = "com.otter.lms.otterlms")
 public class JpaConfig {
 }

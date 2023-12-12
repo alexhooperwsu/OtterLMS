@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.exception;
+package com.otter.lms.otterlms.exception;
 
 /**
  * Domain exception to throw when a specified course cannot be found

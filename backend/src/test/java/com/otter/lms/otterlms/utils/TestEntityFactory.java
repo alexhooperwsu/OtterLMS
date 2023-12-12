@@ -1,8 +1,8 @@
-package com.example.wsu.webdemo.utils;
+package com.otter.lms.otterlms.utils;
 
-import com.example.wsu.webdemo.domain.CourseLevel;
-import com.example.wsu.webdemo.dto.CourseDTO;
-import com.example.wsu.webdemo.entity.Course;
+import com.otter.lms.otterlms.domain.CourseLevel;
+import com.otter.lms.otterlms.dto.CourseDTO;
+import com.otter.lms.otterlms.entity.Course;
 
 public class TestEntityFactory {
     public static CourseDTO validCourseDTO() {

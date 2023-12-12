@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.config;
+package com.otter.lms.otterlms.config;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;

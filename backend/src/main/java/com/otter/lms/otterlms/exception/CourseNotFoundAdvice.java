@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.exception;
+package com.otter.lms.otterlms.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;

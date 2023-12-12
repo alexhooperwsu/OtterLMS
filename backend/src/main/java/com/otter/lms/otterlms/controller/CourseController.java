@@ -1,7 +1,7 @@
-package com.example.wsu.webdemo.controller;
+package com.otter.lms.otterlms.controller;
 
-import com.example.wsu.webdemo.dto.CourseDTO;
-import com.example.wsu.webdemo.service.CourseService;
+import com.otter.lms.otterlms.dto.CourseDTO;
+import com.otter.lms.otterlms.service.CourseService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

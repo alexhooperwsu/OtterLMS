@@ -1,6 +1,6 @@
-package com.example.wsu.webdemo.dto;
+package com.otter.lms.otterlms.dto;
 
-import com.example.wsu.webdemo.domain.CourseLevel;
+import com.otter.lms.otterlms.domain.CourseLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

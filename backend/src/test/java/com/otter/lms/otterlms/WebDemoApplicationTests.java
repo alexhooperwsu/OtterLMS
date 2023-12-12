@@ -1,8 +1,8 @@
-package com.example.wsu.webdemo;
+package com.otter.lms.otterlms;
 
-import com.example.wsu.webdemo.controller.CourseController;
-import com.example.wsu.webdemo.repository.CourseRepository;
-import com.example.wsu.webdemo.service.CourseService;
+import com.otter.lms.otterlms.controller.CourseController;
+import com.otter.lms.otterlms.repository.CourseRepository;
+import com.otter.lms.otterlms.service.CourseService;
 import org.junit.jupiter.api.Test;
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.test.context.SpringBootTest;

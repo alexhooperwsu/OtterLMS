@@ -1,6 +1,6 @@
-package com.example.wsu.webdemo.entity;
+package com.otter.lms.otterlms.entity;
 
-import com.example.wsu.webdemo.domain.CourseLevel;
+import com.otter.lms.otterlms.domain.CourseLevel;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import static com.example.wsu.webdemo.domain.CourseComplexity.*;
+import static com.otter.lms.otterlms.domain.CourseComplexity.*;
 
 /**
  * Internal (private) representation of a course

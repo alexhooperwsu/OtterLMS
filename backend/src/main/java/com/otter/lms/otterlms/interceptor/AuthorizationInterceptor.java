@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.interceptor;
+package com.otter.lms.otterlms.interceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

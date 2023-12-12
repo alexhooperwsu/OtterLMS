@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.domain;
+package com.otter.lms.otterlms.domain;
 
 /**
  * Representation of course complexities to avoid using string literals

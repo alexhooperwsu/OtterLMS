@@ -1,4 +1,4 @@
-package com.example.wsu.webdemo.domain;
+package com.otter.lms.otterlms.domain;
 
 /**
  * Represents course levels

@@ -1,6 +1,6 @@
-package com.example.wsu.webdemo.config;
+package com.otter.lms.otterlms.config;
 
-import com.example.wsu.webdemo.interceptor.AuthorizationInterceptor;
+import com.otter.lms.otterlms.interceptor.AuthorizationInterceptor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

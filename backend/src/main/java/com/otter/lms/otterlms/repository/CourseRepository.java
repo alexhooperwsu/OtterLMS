@@ -1,6 +1,6 @@
-package com.example.wsu.webdemo.repository;
+package com.otter.lms.otterlms.repository;
 
-import com.example.wsu.webdemo.entity.Course;
+import com.otter.lms.otterlms.entity.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
